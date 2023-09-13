@@ -1,0 +1,15 @@
+{
+    "name": "jorge/ap2_mvc_routing",
+    "description": "Composer config",
+    "type": "project",
+    "require": {
+        "illuminate/database": "11.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jorge\\Ap2MvcRouting\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
