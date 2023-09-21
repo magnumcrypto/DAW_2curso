@@ -1,5 +1,5 @@
 <?php
 
 declare(strict_types=1);
-require('./model.php');
-require('./view.php');
+require('model.php');
+require('view.php');
