@@ -1,6 +1,10 @@
 <?php
 
 declare(strict_types=1);
+namespace Models;
+
+use PDO;
+use PDOException;
 
 
 class Connection
@@ -17,7 +21,7 @@ class Connection
                 $config["password"]
             );
         } catch (PDOException $exception) {
-            echo "Connection failed: 404" - $exception->getMessage();
+            echo "Connection failed: 404" . $exception->getMessage();
         }
     }
 

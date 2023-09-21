@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- Ejemplo de plantilla HTML con paso de datos mediante PHP-->
+<html lang="es">
+  <head>
+    <meta http-equiv='Content-Type' content= "text/html; charset=utf-8">
+    <!-- Se ha insertado código PHP para poder obtener los datos directamente desde el HTML -->
+    <title><?php echo $data["title"];?></title>
+    <meta name="title" content='<?php echo  $data["title"]; ?>'>
+    <meta name="keywords" content='<?php echo $data["keyworks"]; ?>'>
+    <meta name="description" content='<?php echo $data["description"]; ?>'>
+    <link type="text/css" rel="stylesheet" href="template.css">
+  </head>
+  <body>
+    <div id="page">
+      <div id="cab">
+        <a><img alt="home page" src="MVC.png"></a>
+      </div>
+      <div id="title">
+        <h1><?php echo $data["title"];?></h1>
+      </div>
+      <div id="content">
+        <?php echo $data["content"]; ?>
+      </div>
+    </div>
+  </body>
+</html>
