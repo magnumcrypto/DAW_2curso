@@ -1,0 +1,17 @@
+{
+  "name": "daw-dwes/ap21-mvc-routing-con-composer",
+  "authors": [
+    {
+      "name": "fdiaz-alonso",
+      "email": "fdiaz-alonso@florida-uni.es"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AP21\\": "src/",
+      "Config\\": "config/"
+    }
+  },
+  "require": {
+  }
+}
